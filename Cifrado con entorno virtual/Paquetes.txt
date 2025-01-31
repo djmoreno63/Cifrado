@@ -1,0 +1,20 @@
+
+Pasos para copilacion
+
+Creamos un entorno virtual y procedemos a activarlo
+	virtualenv -p python3 env
+	./env/Scripts/Activate
+
+verificamos los paquetes instalados por defecto
+	pip list
+
+Instalamos Paquetes necesarios para encriptar
+
+	pip install werkzeug passlib cryptography
+
+verificamos los paquetes instalados 
+	pip list
+
+cryptography 44.0.0
+MarkupSafe   3.0.2
+passlib      1.7.4
